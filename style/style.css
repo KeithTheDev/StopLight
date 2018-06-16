@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('http://www.computerhistory.org/atchm//wp-content/uploads/2012/06/16-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  border: 1px solid black;
+}
+
+#frame {
+  background-color: #3d3d3d;
+  height: 500px;
+  width: 20%;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+#redLight, #yellowLight, #greenLight {
+  margin: 20px 0 0 22%;
+  height: 138px;
+  width: 55%;
+  border-radius: 130px;
+}
+
+#redLight {
+  background-color: red;
+}
+
+#yellowLight {
+  background-color: yellow;
+}
+
+#greenLight {
+  background-color: green;
+}
+
+/* #hiddenLight {
+  background-color: black;
+} */
